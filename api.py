@@ -74,7 +74,7 @@ def create_user():
     db.session.add(new_user)
     db.session.commit()
 
-    return jsonify({'success': True, 'message': 'New user created!'}), 201
+    return jsonify({'success': True, 'reason': 'New user created!'}), 201
 
 password_attempts = {}
 @app.route('/user/verify', methods = ['POST'])
@@ -118,5 +118,6 @@ def delete_user(public_id):
     return jsonify({'message' : 'The user has been deleted!'})
 '''
 if __name__ == '__main__':
-   
-    app.run(host = "0.0.0.0",port=5001,debug=True)
+    with app.app_context():
+        db.create_all()
+    app.run(host = "0.0.0.0",port=3000,debug=True)
