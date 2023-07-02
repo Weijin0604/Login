@@ -9,10 +9,10 @@ SQLAlchemy
 
 ## 安装
 
-請按照以下步驟進行安裝和使用 API：[API使用說明](https://docs.google.com/presentation/d/1O9ceP2Ft6LSlv_35al18XwjL3_CaTG0PqJBz5ted7dU/edit#slide=id.g22eac6fecc8_0_167)
+請按照以下步驟進行容器化安裝：[docker使用說明](https://docs.google.com/presentation/d/1O9ceP2Ft6LSlv_35al18XwjL3_CaTG0PqJBz5ted7dU/edit#slide=id.g22eac6fecc8_0_167)
 
-API 的 Docker 映像檔可在 Docker Hub 上找到：https://hub.docker.com/repository/docker/yuri0604/loginapi/general
+API 的 Docker 映像檔可在 Docker Hub 上找到：[Dockerhub網址](https://hub.docker.com/repository/docker/yuri0604/loginapi/general)
 
 ## 使用方法
 
-請參考以下簡報以瞭解如何使用 API：https://docs.google.com/presentation/d/1IsGfkn_nKphrokbUWmmlxeQ5Tuoav1QBOAHiAmUNh64/edit#slide=id.p
+請參考以下簡報以瞭解如何使用 API：[API使用說明](https://docs.google.com/presentation/d/1IsGfkn_nKphrokbUWmmlxeQ5Tuoav1QBOAHiAmUNh64/edit#slide=id.p)
