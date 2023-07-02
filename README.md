@@ -1,10 +1,10 @@
-# 項目名稱
+## 項目名稱
 
 帳戶與密碼管理的 HTTP API
 這個 API 提供了帳戶和密碼管理的功能，以 RESTful 風格設計，接受 JSON 格式的輸入並回傳 JSON 格式的輸出。
 API 使用 Python 編寫，需要確保執行環境擁有以下套件：
-Flask
-SQLAlchemy
+* Flask
+* SQLAlchemy
 
 
 ## 安装
